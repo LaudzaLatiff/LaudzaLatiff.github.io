@@ -1,0 +1,37 @@
+/* Body */
+body {
+  font-family: "Source Code Pro", monospace;
+}
+
+/* Jumbotron */
+.banner {
+  background: url(/Images/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 520px;
+}
+
+.contact {
+  height: 640px;
+  padding-top: 200px;
+}
+/* Desktopn Version */
+@media (min-width: 992px) {
+  /* Navbar */
+  .nav-link {
+    color: white !important;
+    margin-right: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Jumbotron */
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 640px;
+  }
+  .text-box {
+    margin-top: 12rem;
+  }
+}
